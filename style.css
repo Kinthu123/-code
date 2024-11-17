@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Doto;
+}
+
+/*header*/
+header{
+        background-color: #9B7EBD;
+        text-align: center;
+        margin-bottom: 20px;
+} 
+
+h1{
+    font-size: 50px;
+    color: #EEEEEE;
+}
+header li{
+    display: inline;
+    margin: 10px 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: #EEEEEE;
+    }
+
+
+
+/*content_color*/
+
+body{
+    padding: 10px;
+    background-color: #EEEEEE;
+}
+
+.container{
+    color:#000000;
+    background-color: #D4BEE4;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    height: 80%;
+    margin-top: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+}
+.container1, .container2{
+    margin: 20px;
+    flex: 1;
+    border: solid 1px black;
+    font-size: 20px;
+}
+
+
+.container1{
+    text-align: left;
+    padding: 20px;
+    width:50%;
+}
+.container1 h2, .container2 h2{
+    text-align: center;
+}
+
+
+.container2{
+    text-align: left;
+    padding: 20px;
+}
+
+
+.color-container{
+    margin: 30px 20px;
+    width: 300px;
+    height: 100px;
+    display: inline;
+    
+}
+
+
+
+.color-container .box1{
+    
+    background-color: #1A1A19;
+    width: 200px;
+    height: 40px;
+}
+
+.color-container .box2{
+    background-color: #31511E;
+    width: 200px;
+    height: 40px;
+}
+.color-container .box3{
+    width: 200px;
+    height: 40px;
+    background-color: #859F3D;
+}
+
+
+.color-container .box4{
+    width: 200px;
+    height: 40px;
+    background-color: #F6FCDF;
+}
+
+
+
+/*content_font*/
+
+.Font-container {
+    margin: 30px 40px;
+    width: 686px;
+    height: 160px; 
+    display: inline; 
+}
+
+.Font-container1{
+    margin-bottom: 40px;
+}
+
+.Font-name1,.Font-normal1,.Font-bold1{
+    font-family: Sour Gummy;
+    font-size: 25px;
+}
+
+
+.Font-container2{
+    margin-bottom: 40px;
+}
+
+.Font-name2,.Font-normal2,.Font-bold2{
+    font-family: Oswald ;
+    font-size: 25px;
+}
+
+.Font-container3{
+    margin-bottom: 40px;
+}
+
+.Font-name3,.Font-normal3,.Font-bold3{
+    font-family: Kanit ;
+    font-size: 25px;
+}
+
+
+.Font-container4{
+    margin-bottom: 40px;
+}
+
+.Font-name4,.Font-normal4,.Font-bold4{
+    font-family: Bebas Neue ;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
